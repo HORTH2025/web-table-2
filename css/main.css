@@ -1,0 +1,140 @@
+body{
+    background: #F0E6E5;
+}body,ul{
+    margin-top: 0 ;
+}
+
+
+nav{
+    background: #f2f2f2;
+    font-size: 20px;
+    width: 100%;
+}
+
+ul{
+    display: flex;
+    list-style-type: none; 
+}
+
+a {
+    text-decoration: none;
+}
+ ul li{
+    padding: 20px;
+}
+
+.active-link{
+    background: #EADCDC;
+}
+
+/* page_index */
+
+header{
+    text-align: center;
+    font-size: larger;
+    padding: 70px;
+}
+
+.home-box{
+    display: flex;
+    margin: 0 20px 0 40px;
+}
+
+.home-box .card{
+    background: #fff;
+    flex: 1;
+    padding: 20px;
+    width: 100px;
+    height: 200px;
+    margin-right: 20px;
+    border-radius: 8px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+/* page_about */
+
+.about-container{
+    display: flex;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.about-box{
+    background: #fff;
+    width: 95%;
+    height: 300px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.content p{
+    width: 95%;
+    height: 300px;
+    margin-top: 0;
+}
+side-box{
+    display: flex;
+}
+
+.side-box .card{
+    margin-bottom: 20px;
+    width: 250px;
+    height: 200px;
+    border-radius: 8px;
+    padding: 10px;
+    flex: 1;
+    margin-right: 100px;
+    background: #fff;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+
+}
+
+/* page_servicse */
+
+ table{
+    width: 80%;
+    border-collapse: collapse;
+    overflow: hidden;
+    margin: 20px auto;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ th,td{
+    /* border-bottom: 1px solid #e8e8e8; */
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+    color: #ffff;
+}
+
+table caption{
+    font-size: 30px;
+    padding: 20px;
+}
+
+td:nth-child(1),th:nth-child(1){
+    background: #048DED;
+    width: 100px;
+}
+td:nth-child(2),th:nth-child(2){
+    background: #057BD2;
+    width: 100px;
+}
+td:nth-child(3),th:nth-child(3){
+    background: #0368AE;
+    width: 100px;
+}
+td:nth-child(4),th:nth-child(4){
+    background: #034984;
+    width: 100px;
+    
+}
+
